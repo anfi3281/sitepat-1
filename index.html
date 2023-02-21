@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="dist/style.css">
+  </head>
+
+  <body>
+
+    <!-- Header Start -->
+    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent lg:h-76px">
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <a href="#home" class="block w-3 py-6 text-lg font-bold text-primary"><img
+                src="/assets/img/Sitepat Logo S.png" alt="" class="w-5"></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            </button>
+
+            <nav id="nav-menu"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none ">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home"
+                    class="mx-8 flex py-2 text-base font-semibold text-dark group-hover:text-azure ">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about"
+                    class="mx-8 flex py-2 text-base font-semibold text-dark group-hover:text-azure">Tentang
+                    Kami</a>
+                </li>
+                <li class="group">
+                  <a href="#clients"
+                    class="mx-8 flex py-2 text-base font-semibold text-dark group-hover:text-azure">Produk</a>
+                </li>
+                <a href="#contact"
+                  class="mx-8 flex py-2 text-base font-semibold text-dark group-hover:text-azure">Kontak</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-20 lg:pt-32">
+      <div class="container pb-20">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <img src="/assets/img/Sitepat txt only.png" alt="" class="w-32 lg:w-96">
+            <p class="text-gray-500 mb-10 pt-5 font-light leading-relaxed text-secondary lg:text-2xl">
+              Siap wujudkan
+              teknologi instansi Anda? Kami pilihan yang <span class="font-semibold text-azure">TEPAT</span> </p>
+            <a href="#"
+              class="rounded-full bg-azure py-3 px-8 text-base font-semibold text-peppermint transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">Get
+              Started</a>
+          </div>
+          <div class="hidden w-full self-end px-4 lg:flex lg:w-1/2">
+            <div class="mt-10 lg:right-0 lg:mt-9">
+              <img src="assets/img/undraw_code_thinking_re_gka2.svg" alt="" class="z-10 mx-auto max-w-full" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- values start -->
+    <section class="bg-sky-50">
+      <div class="container mx-auto py-24 lg:py-32">
+        <p class="text-base lg:text-xl font-medium text-slate-800 text-center">
+          KENAPA SITEPAT?
+        </p>
+        <p class=" text-3xl lg:text-5xl font-extrabold text-slate-800 text-center mt-3">
+          Kelebihan Kami
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20">
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/idea.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold">Creative</p>
+            <p class="text-gray-500 text-center">
+              Perusahaan kami senantiasa menciptakan solusi kreatif untuk memenuhi kebutuhan pelanggan.
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/compassion.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold">Compassion</p>
+            <p class="text-gray-500 text-center">
+              Perusahaan kami selalu berusaha memberikan pelayanan yang empati dan peduli terhadap kebutuhan pelanggan.
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/cooperative.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold">Cooperative</p>
+            <p class="text-gray-500 text-center">
+              Perusahaan kami senantiasa bekerja sama dengan pelanggan dan mitra bisnis untuk mencapai kesuksesan
+              bersama.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- values end -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-16 pb-32">
+      <div class="container pt-16">
+        <div class="flex flex-wrap">
+          <div class="mb-10 w-full px-4 lg:w-1/2">
+            <h4 class="mb-3 text-lg font-bold uppercase text-slate-800">About Us</h4>
+            <h2 class="mb-5 max-w-md text-3xl font-extrabold text-dark lg:text-4xl">SISTEM TERPADU TERAPAN TEKNOLOGI
+            </h2>
+            <p class="max-w-xl text-base font-Anton text-justify text-slate-800 font-light text-secondary lg:text-xl">
+              Sebuah
+              perusahaan yang bergerak di bidang pembuatan aplikasi instansi,
+              perusahaan, dan sistem kebutuhan sehari-hari yang mempunyai tujuan untuk memajukan teknologi Indonesia.
+              Kami bersama dengan anak-anak muda yang mempunyai semangat yang besar siap untuk mengembangkan sistem Anda
+              menjadi lebih baik lagi.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <img src="/assets/img/groovy.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Clients Section Start -->
+    <section id="clients" class="bg-sky-50 pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 text-center">
+            <h4 class="mb-2 text-lg font-bold text-slate-800">Our Product</h4>
+            <h2 class="mb-4 text-3xl font-bold text-slate-800 sm:text-4xl lg:text-5xl">Kami Siap Membuat</h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 lg:gap-16 py-12">
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/resume.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold text-center">Portfolio</p>
+            <p class="text-gray-500 text-center">
+              Keuangan dan investasi, Informasi dan Komunikasi, Pemasaran dan Branding.
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/information-management.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold text-center">Sistem Terpadu</p>
+            <p class="text-gray-500 text-center">
+              Sistem Akademik, Perusahaan, Instansi, Informasi.
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/ecommerce.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold text-center">E-Commerce</p>
+            <p class="text-gray-500 text-center">
+              Penjualan, Pembelian, Toko Online, Keuangan, Pasar.
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/inventory.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold text-center">Gudang</p>
+            <p class="text-gray-500 text-center">
+              Penyimpanan, Toko, Inventaris
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/cash-machine.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold text-center">Kasir</p>
+            <p class="text-gray-500 text-center">
+              Kasir Toko Kecil, Toko Besar, UMKM
+            </p>
+          </div>
+          <div class="flex flex-col gap-5 items-center">
+            <img src="/assets/img/web-design.png" alt="v1" class="w-20" />
+            <p class="text-2xl font-semibold text-center">Custom</p>
+            <p class="text-gray-500 text-center">
+              Buat aplikasi yang Anda inginkan.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-center pt-7 font-bold pb-7">Dan lainnya...</p>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-xl text-center">
+            <h4 class="mb-2 text-lg font-semibold text-slate-800">Contact Us</h4>
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+          </div>
+        </div>
+
+        <form>
+          <div class="w-full lg:mx-auto lg:w-2/3">
+            <div class="mb-8 w-full px-4">
+              <label for="name" class="text-base font-bold text-slate-800">Nama</label>
+              <input type="text" id="name"
+                class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-800" />
+            </div>
+            <div class="mb-8 w-full px-4">
+              <label for="email" class="text-base font-bold text-slate-800">Email</label>
+              <input type="email" id="email"
+                class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-800" />
+            </div>
+            <div class="mb-8 w-full px-4">
+              <label for="message" class="text-base font-bold text-slate-800">Pesan</label>
+              <textarea type="email" id="email"
+                class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-800"></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="w-full rounded-full bg-azure py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Kirim</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
+            <h2 class="mb-5 text-4xl font-bold text-slate-400">SITEPAT</h2>
+            <h3 class="mb-2 text-2xl font-bold">Hubungi Kami</h3>
+            <p>Kedawung, Karangdadap</p>
+            <p>Pekalongan</p>
+          </div>
+          <div class="mb-12 w-full px-4 md:w-1/3">
+            <h3 class="mb-5 text-xl font-semibold text-slate-400">Our Social Media</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#" class="mb-3 inline-block text-base hover:text-primary"><img
+                    src="/assets/img/email-svgrepo-com.svg" alt=""
+                    class="w-5 inline-block mr-4 opacity-30">sistemtepat@gmail.com</a>
+              </li>
+              <li>
+                <a href="#" class="mb-3 inline-block text-base hover:text-primary"><img
+                    src="/assets/img/whatsapp-svgrepo-com.svg" alt="" class="w-5 inline-block mr-4 opacity-30">0857 -
+                  2170 -
+                  9230</a>
+              </li>
+              <li>
+                <a href="#" class="mb-3 inline-block text-base hover:text-primary"><img
+                    src="/assets/img/instagram-svgrepo-com.svg" alt=""
+                    class="w-5 inline-block mr-4 opacity-30">instagram</a>
+              </li>
+              <li>
+                <a href="#" class="mb-3 inline-block text-base hover:text-primary"><img
+                    src="/assets/img/facebook-svgrepo-com (1).svg" alt=""
+                    class="w-5 inline-block mr-4 opacity-30">facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mb-12 w-full px-4 md:w-1/3">
+            <h3 class="mb-5 text-xl font-semibold text-slate-400">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Beranda</a>
+              </li>
+              <li>
+                <a href="#about" class="mb-3 inline-block text-base hover:text-primary">Tentang Kami</a>
+              </li>
+              <li>
+                <a href="#clients" class="mb-3 inline-block text-base hover:text-primary">Produk</a>
+              </li>
+              <li>
+                <a href="#contact" class="mb-3 inline-block text-base hover:text-primary">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full border-t border-slate-700 pt-10">
+          <p class="text-center text-xs font-medium text-slate-500">
+            SITEPAT 2023
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="/dist/js/script.js"></script>
+  </body>
+
+</html>
